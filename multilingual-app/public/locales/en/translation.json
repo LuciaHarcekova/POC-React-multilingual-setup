@@ -1,0 +1,9 @@
+{
+    "localization_testing": "english",
+    "good_morning": "Good morning",
+    "good_evening": "Good evening",
+    "user": {
+        "name": "Name",
+        "age": "Age"
+    }
+}
