@@ -9,8 +9,10 @@ The simple POC for the multi-language application (english and german languages 
 1. Firstly we create a project: `npm create-react-app project`.
  
 2. We need to add react-i18next and i18next to the project by using the below commands:
+
 `npm install i18next`
-`npm install react-i18next`.
+
+`npm install react-i18next`
 
 3. Now, we make a folder with name "locales" in public folder. In which we create the separate folders for each language. In our example we have de and en folders. In each we create the file "translation.json" with specific translations for given language.
 
@@ -46,7 +48,7 @@ i18n
 export default i18n;
 ```
 
-5. In "index.json" we add 'import \'./i18n/i18n\';'.
+5. In "index.json" we add `import './i18n/i18n';`.
 
 6. For using translation we add 'const { t } = useTranslation();' to our solution. See the example of use below.
 ```
